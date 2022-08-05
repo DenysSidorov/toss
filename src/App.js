@@ -17,7 +17,7 @@ class App extends Component {
             <div className="App">
                 <h1>I'm configuring setting up Webpack!!!</h1>
                 <p>{`The count now is: ${this.state.counter}`}</p>
-                <button onClick={this.handleClick}>Click me</button>
+                <button onClick={this.handleClick}>Click me!</button>
             </div>
         );
     }
