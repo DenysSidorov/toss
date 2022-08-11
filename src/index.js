@@ -1,4 +1,5 @@
 // import React from 'react';
+import '../src/sass/reset.scss';
 import '../src/sass/common.scss';
 // import ReactDOM from 'react-dom';
 // import App from "./App";
