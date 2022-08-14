@@ -17,6 +17,13 @@
 //   "footer footer footer";
 //grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // fill space
 //grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+//align-items: center; // for all elements on row
+//justify-items: center; // for all elements on column
+//justify-content: center; // for one element with size more than row
+//align-content: center // for one element with size more than column
+//place-content: center end // short form for justify-content and align-content
+//place-content: center end // short form for justify-content and align-content
+//place-self: start center // short form for justify-self and align-self
 
 // child
 //grid-column-start: 1;
@@ -24,6 +31,8 @@
 //grid-column: 1 / 3;
 //grid-row: 1 / 3;
 //grid-area: header; // any name
+//align-self: stretch;
+//justify-self: start;
 
 .wrapper {
   width: 100vw;
