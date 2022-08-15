@@ -11,10 +11,10 @@
 //grid-auto-flow: row/column/dense; // order as a flex-direction for implicit elements
 //grid-auto-flow: dense; // browser will try to optimise gaps in flow
 //grid-gap: 20px 30px; // grid-column-gap grid-row-gap
-//  grid-template-areas:  // set a grid
-//   "header header header"
-//   "nav article ads"
-//   "footer footer footer";
+  //  grid-template-areas:  // set a grid
+  //   "header header header"
+  //   "nav article ads"
+  //   "footer footer footer";
 //grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); // fill space
 //grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 //align-items: center; // for all elements on row
@@ -24,6 +24,14 @@
 //place-content: center end // short form for justify-content and align-content
 //place-content: center end // short form for justify-content and align-content
 //place-self: start center // short form for justify-self and align-self
+  //grid-template:
+  //"avatar avatar  name  name  name"   2rem
+  //"avatar avatar  posts posts posts"
+  //"about  about   posts posts posts"  6rem
+  //"...... ......  posts posts posts"
+  /// 2fr    10px    3fr   1fr   5vw
+
+
 
 // child
 //grid-column-start: 1;
